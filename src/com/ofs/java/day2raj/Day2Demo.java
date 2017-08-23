@@ -18,9 +18,9 @@ public class Day2Demo {
 		
 		MethodDemo methodDemo = new MethodDemo();
 		// call method one;
-		methodDemo.addition(2,3);
+		methodDemo.addition(3,6);
 		// call method two and print the return value;
-		System.out.println(MethodDemo.addition(2,3,4));
+		System.out.println(MethodDemo.addition(5,5,5));
 		
 		MethodOverLoadDemo methodOverLoadDemo = new MethodOverLoadDemo();
 		// call lhs and rhs and compare the value;
