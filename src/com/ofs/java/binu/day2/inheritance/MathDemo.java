@@ -7,6 +7,5 @@ public class MathDemo {
 	
 	private static int demo_number = 1;
 
-	
 	// create method add ; Just print a statement;
 }
