@@ -16,7 +16,7 @@ public class TrianglePattern3 {
 		System.out.println("");
 		i--;
 		}while(i>=0);
-			//}
+			//}     
 
 	}
 
