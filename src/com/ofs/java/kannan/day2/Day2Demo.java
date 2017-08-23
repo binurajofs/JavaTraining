@@ -5,7 +5,7 @@ import com.ofs.java.kannan.day2.inheritance.*;
  * 
  * Day 2 task main class;
  * 
- * @author binurajk
+ * @author KannaN
  *
  */
 public class Day2Demo {
@@ -23,10 +23,15 @@ public class Day2Demo {
 		System.out.println("value a=2 value b=3 formula:ac + bc = c(a + b)");
 		System.out.println("LFH is "+methodOverLoadDemo.calculateLHS(2, 3));//calling calculateLHS function with two values
 		System.out.println("RHS is "+methodOverLoadDemo.calculateRHS(2, 3));//calling calculateRHS function with two values
+		if(methodOverLoadDemo.calculateLHS(2, 3)==methodOverLoadDemo.calculateRHS(2, 3)) {
+			System.out.println("Values Matching");
+		}
 		System.out.println("value a=2 value b=3 value c=4 formula:a3 + b3 = (a + b)(a2 - ab + b2)");
 		System.out.println("LFH is "+methodOverLoadDemo.calculateLHS(2, 3, 4));//calling calculateLHS function with three values
 		System.out.println("RFH is "+methodOverLoadDemo.calculateRHS(2, 3, 4));//calling calculateRHS function with three values
-
+		if(methodOverLoadDemo.calculateLHS(2,3,4)==methodOverLoadDemo.calculateRHS(2,3,4)) {
+			System.out.println("Values Matching");
+		}
 
 		MathDemo mathDemo = new MathDemo();
 		MathDemo.demoNumberCheck();
