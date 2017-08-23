@@ -1,4 +1,4 @@
-package com.ofs.java.kannan;
+package com.ofs.java.kannan.day2;
 
 public class MethodDemo {
 

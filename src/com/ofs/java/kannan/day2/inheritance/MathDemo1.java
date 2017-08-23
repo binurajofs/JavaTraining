@@ -1,4 +1,4 @@
-package com.ofs.java.kannan;
+package com.ofs.java.kannan.day2.inheritance;
 
 public class MathDemo1 extends MathDemo {
 	// create methods to do sub, mul and define it.
@@ -23,8 +23,8 @@ public class MathDemo1 extends MathDemo {
 		}
 	}
 	public int add(int value_a,int value_b) {
-		//multiplication method
+		//add method
 		return (value_a+value_b);
 	}
-	// d add method 
+	
 }

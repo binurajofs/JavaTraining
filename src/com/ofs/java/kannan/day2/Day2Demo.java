@@ -1,4 +1,5 @@
-package com.ofs.java.kannan;
+package com.ofs.java.kannan.day2;
+import com.ofs.java.kannan.day2.inheritance.*;
 
 /**
  * 

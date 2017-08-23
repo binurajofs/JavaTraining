@@ -1,4 +1,4 @@
-package com.ofs.java.kannan;
+package com.ofs.java.kannan.day2.inheritance;
 
 public class MathDemo2 extends MathDemo1{
 	
