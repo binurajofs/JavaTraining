@@ -15,13 +15,13 @@ public class IfElseDemo {
 		finalScore = in.nextInt();
 		average = ((quiz + midterm + finalScore) / 3);
 		if (average >= 90) {
-			System.out.println("Grade A");
+			System.out.println("grade A");
 		} else if (average >= 70 && average < 90) {
-			System.out.println("Grade B");
+			System.out.println("grade B");
 		} else if (average >= 50 && average < 70) {
-			System.out.println("Grade C");
+			System.out.println("grade C");
 		} else {
-			System.out.println("Grade F");
+			System.out.println("grade F");
 		}
 		in.close();
 

@@ -29,17 +29,17 @@ public class SwitchDemo {
 		// SWITCH CASE TO CHECK THE GRADE
 		switch (n) {
 		case 1:
-			System.out.println("Grade A");
+			System.out.println("grade A");
 			break;
 		case 2:
-			System.out.println("Grade B");
+			System.out.println("grade B");
 			break;
 
 		case 3:
-			System.out.println("Grade C");
+			System.out.println("grade C");
 			break;
 		case 4:
-			System.out.println("Grade F");
+			System.out.println("grade F");
 			break;
 		default:
 			break;
