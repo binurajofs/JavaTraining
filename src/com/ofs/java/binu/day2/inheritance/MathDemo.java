@@ -7,6 +7,9 @@ public class MathDemo {
 	
 	private static int demo_number = 1;
 
+<<<<<<< HEAD
 	
+=======
+>>>>>>> origin/master
 	// create method add ; Just print a statement;
 }
