@@ -1,5 +1,16 @@
-package com.ofs.java.rajkamal;
+/*****
+ * 
+ * 
+ * Author : Rajkamal
+ * 
+ * 
+ * 
+ * ***/
 
+
+
+package com.ofs.java.rajkamal;
+//SCANNER PACKAGE IS IMPORTED TO USE ITS METHOD SCANNER
 import java.util.Scanner;
 
 public class SwitchDemo {
