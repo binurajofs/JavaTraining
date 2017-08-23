@@ -16,6 +16,7 @@ public class Day2Demo {
 	public static void main(String args[]) {
 		
 		MethodDemo methodDemo = new MethodDemo();
+		
 		// call method one;
 		// call method two and print the return value;
 		
