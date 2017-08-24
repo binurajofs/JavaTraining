@@ -1,24 +1,24 @@
 package com.ofs.java.somu;
 
 
-public class Trianglepattern1 {
+public class Trianglepattern1 {   // creating class
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  // main function
 		// TODO Auto-generated method stub
-        int i=1,j=0;
-		while(i<=5)
+        int i=1,j=0;                          // initializing i and j variable
+		while(i<=5)                           // while loop starts
          {
-	      while(j<i)
+	      while(j<i)                          // second while loop
 	       {
-		     System.out.print("* ");
+		     System.out.print("* ");          // printing *
 		     j++;  
 	       }
 	      j=0;
-	      i++;
-	     System.out.println();
+	      i++;                                // incrementing i
+	     System.out.println();     
         }
       }
-   }
+   }                                          // end program
 
 
 
