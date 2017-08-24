@@ -1,21 +1,21 @@
 package com.ofs.java.binu;
 
-public class Trianglepattern {
+public class Trianglepattern {                // creating class
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {  // main function
 		// TODO Auto-generated method stub
-		int i=4;
-		do
+		int i=4;                              // initializing i variable
+		do                                    // starting of loop
 		{
-			int j=0;
-			do
+			int j=0;                          // initializing j variable
+			do                                // another do-while loop starts
 			{
-				System.out.print("* ");
+				System.out.print("* ");       // printing *
 				j++;
-			}while(j<=i);
-			System.out.println("");
-			i--;
-		}while(i>0);
+			}while(j<=i);                     // condition of second loop
+			System.out.println("");           
+			i--;                              // decrementing i variable  
+		}while(i>0);                          // executing condition
 	}
 
 }

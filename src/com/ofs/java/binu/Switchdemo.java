@@ -2,11 +2,11 @@ package com.ofs.java.binu;
 
 import java.util.Scanner;
 
-public class Switchdemo {
+public class Switchdemo {                              // new class
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) {           // main function
 		// TODO Auto-generated method stub
-		Scanner grade = new Scanner(System.in);
+		Scanner grade = new Scanner(System.in);        //creating object for scanner
 		int quiz=0 ,midterm=0 ,finalmark=0 ;
 		System.out.println("Enter the score of quiz");
 		quiz= grade.nextInt();
@@ -14,10 +14,10 @@ public class Switchdemo {
 		midterm= grade.nextInt();
 		System.out.println("Enter the score of final");
 		finalmark= grade.nextInt();
-		float avg;
-		avg=(quiz+midterm+finalmark)/3;
-		int x = 0;	
-		if(avg>=90)
+		float avg;                                     // declaring variable avg(average)
+		avg=(quiz+midterm+finalmark)/3;                // calculating average
+		int x = 0;	                                   // initializing variable x
+		if(avg>=90)                                    // condition to find grade 
 		{
 			x=1;
 		}
@@ -34,11 +34,11 @@ public class Switchdemo {
 			x=4;
 		}
 		
-		switch(x)
+		switch(x)                                     // switching the variable x
 		{
-		case 1:
+		case 1:                                       // switch cases starts
 		{
-		    	System.out.println("Grade A");
+		    	System.out.println("Grade A");        // condition true means prints grade
 		    	break;
 		}
 		
@@ -62,4 +62,4 @@ public class Switchdemo {
 
 }
 
-}
+}                                                     // program end
