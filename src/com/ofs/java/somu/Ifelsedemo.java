@@ -2,23 +2,23 @@ package com.ofs.java.somu;
 
 import java.util.Scanner;
 
-public class Ifelsedemo {
+public class Ifelsedemo {                              // creating class
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {           // main function
 		// TODO Auto-generated method stub
-		Scanner grade = new Scanner(System.in);
-		int quiz=0 ,midterm=0 ,finalmark=0 ;
-		System.out.println("Enter the score of quiz");
-		quiz= grade.nextInt();
+		Scanner grade = new Scanner(System.in);          // creating object for scanner
+		int quiz=0 ,midterm=0 ,finalmark=0 ;            // initializing the variables
+		System.out.println("Enter the score of quiz");  // Getting the value
+		quiz= grade.nextInt();             
 		System.out.println("Enter the score of midterm");
 		midterm= grade.nextInt();
 		System.out.println("Enter the score of final");
 		finalmark= grade.nextInt();
-		float avg;
-		avg=(quiz+midterm+finalmark)/3;
-		if(avg>=90)
+		float avg;                                      // defining average
+		avg=(quiz+midterm+finalmark)/3;                // calculating average 
+		if(avg>=90)                                   // condition to find grade 
 		{
-			System.out.println("Grade A");
+			System.out.println("Grade A");           // Printing the result grade
 		}
 		else if(avg>=70 && avg<90)
 		{
@@ -34,4 +34,4 @@ public class Ifelsedemo {
 		}
 	}
 
-}
+}                                                    // program end
