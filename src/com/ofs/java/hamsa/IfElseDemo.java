@@ -1,4 +1,5 @@
 package com.ofs.java.hamsa;
+
 import java.util.Scanner;
 
 public class IfElseDemo {
@@ -8,18 +9,18 @@ public class IfElseDemo {
 	}
 
 	static void yourGrade() {
-		int quiz_score, midterm_score, final_score, avg;
+		int quizScore, midtermScore, finalScore, avg;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Quiz score:");
-		quiz_score = sc.nextInt();
-		
+		quizScore = sc.nextInt();
+
 		System.out.print("Mid-term score:");
-		midterm_score = sc.nextInt();
-		
+		midtermScore = sc.nextInt();
+
 		System.out.print("Final score:");
-		final_score = sc.nextInt();
-		
-		avg = (quiz_score + midterm_score + final_score) / 3;
+		finalScore = sc.nextInt();
+
+		avg = (quizScore + midtermScore + finalScore) / 3;
 		sc.close();
 
 		if (avg >= 90)
