@@ -1,22 +1,26 @@
 package com.ofs.java.karteek;
-class Pattern4{
+class pattern4 {
 	public static void main(String args[]){
-		int row = 1;
-		while(row <= 5){
-			int coloumn = 5;
-			while(coloumn >= row ){
-				System.out.print("*");
-				coloumn--;
+		int row=5, coloumn, count;
+		while(row >= 1){
+			coloumn=1;
+			while(coloumn <= row){
+				System.out.print("* ");
+				coloumn++;
 			}
-			System.out.println();
-			int count = 1;
-			while(count <= 2*row-1){
+			System.out.println("");
+			
+			
+			row--;
+			count = 5;
+			while(count > row){
 				System.out.print(" ");
-				count++;
+				count--;
 			}
 			
-			row++;
 		}
+
 	}
+
 
 }

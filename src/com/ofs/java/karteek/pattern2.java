@@ -1,5 +1,5 @@
 package com.ofs.java.karteek;
-class Pattern2{
+public class pattern2{
 	public static void main(String args[]){
 		int row = 1;
 		while(row <= 5){
