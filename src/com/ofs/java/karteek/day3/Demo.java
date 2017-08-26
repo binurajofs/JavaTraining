@@ -1,10 +1,10 @@
-package com.ofs.java.karteek;
+package com.ofs.java.karteek.day3;
 
-import com.ofs.java.karteek.Entity.Person;
-import com.ofs.java.karteek.Entity.Student;
-import com.ofs.java.karteek.Entity.StudentMarkEntity;
-import com.ofs.java.karteek.Entity.Teacher;
-import com.ofs.java.karteek.Entity.TeacherSalaryEntity;
+import com.ofs.java.karteek.day3.Entity.Person;
+import com.ofs.java.karteek.day3.Entity.Student;
+import com.ofs.java.karteek.day3.Entity.StudentMarkEntity;
+import com.ofs.java.karteek.day3.Entity.Teacher;
+import com.ofs.java.karteek.day3.Entity.TeacherSalaryEntity;
 
 abstract class PersonDemo{
 	

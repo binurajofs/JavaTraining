@@ -1,4 +1,4 @@
-package com.ofs.java.karteek.Entity;
+package com.ofs.java.karteek.day3.Entity;
 
 
 	

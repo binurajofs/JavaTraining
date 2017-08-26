@@ -1,4 +1,4 @@
-package com.ofs.java.karteek;
+package com.ofs.java.karteek.day1;
 class pattern4 {
 	public static void main(String args[]){
 		int row=5, coloumn, count;

@@ -1,4 +1,4 @@
-package com.ofs.java.karteek;
+package com.ofs.java.karteek.day1;
 import java.util.Scanner;
 class SwitchDemo{
 	public static void main(String args[]){
