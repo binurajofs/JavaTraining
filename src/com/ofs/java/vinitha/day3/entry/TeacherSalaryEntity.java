@@ -1,7 +1,7 @@
-package com.ofs.java.blaze1457.day3.entry;
+package com.ofs.java.vinitha.day3.entry;
 /**
  * Teacher Salary Entity
- * @author blaze1457
+ * @author vinitha
  *
  */
 public class TeacherSalaryEntity {
