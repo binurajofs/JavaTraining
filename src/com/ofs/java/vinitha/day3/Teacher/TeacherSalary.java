@@ -1,10 +1,10 @@
-package com.ofs.java.blaze1457.day3.Teacher;
+package com.ofs.java.vinitha.day3.Teacher;
 
-import com.ofs.java.blaze1457.day3.entry.TeacherSalaryEntity;
+import com.ofs.java.vinitha.day3.entry.TeacherSalaryEntity;
 
 /**
  * Interface Teacher Salary
- * @author blaze1457
+ * @author vinitha
  *
  */
 public interface TeacherSalary {
