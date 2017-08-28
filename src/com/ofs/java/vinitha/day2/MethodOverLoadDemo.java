@@ -1,9 +1,9 @@
 
-package com.ofs.java.blaze1457.day2;
+package com.ofs.java.vinitha.day2;
 
 /**
  * 
- * @author blaze
+ * @author vinitha
  *
  */
 public class MethodOverLoadDemo {
