@@ -1,11 +1,11 @@
-package com.ofs.java.blaze1457.day3.Teacher;
+package com.ofs.java.vinitha.day3.Teacher;
 
-import com.ofs.java.blaze1457.day3.PersonDemo;
-import com.ofs.java.blaze1457.day3.entry.Teacher;
+import com.ofs.java.vinitha.day3.PersonDemo;
+import com.ofs.java.vinitha.day3.entry.Teacher;
 
 /**
  * TeacherDemo class extending Person Abstract class
- * @author blaze1457
+ * @author vinitha
  *
  */
 public class TeacherDemo extends PersonDemo {
