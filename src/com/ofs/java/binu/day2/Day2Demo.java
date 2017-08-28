@@ -16,7 +16,7 @@ public class Day2Demo {
 	public static void main(String args[]) {
 		
 		MethodDemo methodDemo = new MethodDemo();
-		// call method one;
+
 		// call method two and print the return value;
 		
 		MethodOverLoadDemo methodOverLoadDemo = new MethodOverLoadDemo();
@@ -24,8 +24,11 @@ public class Day2Demo {
 		
 		MathDemo mathDemo = new MathDemo();
 		// call methods and print the result;
+		
 		MathDemo1 mathDemo1 = new MathDemo1();
+		
 		// call methods and print the result;
+		
 		MathDemo2 mathDemo2 = new MathDemo2();
 
 	}
