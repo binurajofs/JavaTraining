@@ -18,20 +18,12 @@ public class TrianglePattern2 {
 			while(i<j) {
 				
 				System.out.print("* ");
-				i++;
-				
+				i++;		
 			}
-			
-		
-	
 		System.out.println();
 		j++;
 		n--;
 		}
-		
-	
-	}
+		}
 
 	}
-
-
