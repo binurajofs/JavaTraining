@@ -1,10 +1,10 @@
-package com.ofs.java.blaze1457.day3.Student;
+package com.ofs.java.vinitha.day3.Student;
 
-import com.ofs.java.blaze1457.day3.entry.StudentMarkEntity;
+import com.ofs.java.vinitha.day3.entry.StudentMarkEntity;
 
 /**
  * StudentInfo Extending StudentDemo class and implementing StudentMarks Interface
- * @author blaze1457
+ * @author vinitha
  *
  */
 public class StudentInfo extends StudentDemo implements StudentMarks{
