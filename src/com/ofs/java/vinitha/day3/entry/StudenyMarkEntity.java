@@ -1,7 +1,7 @@
-package com.ofs.java.blaze1457.day3.entry;
+package com.ofs.java.vinitha.day3.entry;
 /**
  * Student Mark Entity
- * @author blaze1457
+ * @author vinitha
  *
  */
 public class StudentMarkEntity {
