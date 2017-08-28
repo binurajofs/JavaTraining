@@ -1,7 +1,7 @@
-package com.ofs.java.blaze1457.day2.inheritance;
+package com.ofs.java.vinitha.day2.inheritance;
 /**
  * 
- * @author blaze
+ * @author vinitha
  * MathDemo1 class extending MathDemo
  */
 public class MathDemo1 extends MathDemo {
