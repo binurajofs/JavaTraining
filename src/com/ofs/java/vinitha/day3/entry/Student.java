@@ -1,8 +1,8 @@
-package com.ofs.java.blaze1457.day3.Entry;
+package com.ofs.java.vinitha.day3.Entry;
 
 /**
  * Student Class
- * @author blaze1457
+ * @author vinitha
  *
  */
 public class Student extends Person{
