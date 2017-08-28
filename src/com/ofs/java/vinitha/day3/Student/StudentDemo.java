@@ -1,7 +1,7 @@
-package com.ofs.java.blaze1457.day3.Student;
+package com.ofs.java.vinitha.day3.Student;
 
-import com.ofs.java.blaze1457.day3.PersonDemo;
-import com.ofs.java.blaze1457.day3.entry.Student;
+import com.ofs.java.vinitha.day3.PersonDemo;
+import com.ofs.java.vinitha.day3.entry.Student;
 
 public class StudentDemo extends PersonDemo{
 
