@@ -1,7 +1,7 @@
-package com.ofs.java.blaze1457.day2;
+package com.ofs.java.vinitha.day2;
 /**
  * MethodDemo Class
- * @author blaze1457
+ * @author vinitha
  *
  */
 public class MethodDemo {
