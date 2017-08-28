@@ -1,16 +1,16 @@
-package com.ofs.java.blaze1457.day3;
+package com.ofs.java.vinitha.day3;
 
-import com.ofs.java.blaze1457.day3.entry.Person;
-import com.ofs.java.blaze1457.day3.entry.Student;
-import com.ofs.java.blaze1457.day3.entry.StudentMarkEntity;
-import com.ofs.java.blaze1457.day3.entry.Teacher;
-import com.ofs.java.blaze1457.day3.entry.TeacherSalaryEntity;
-import com.ofs.java.blaze1457.day3.Student.StudentInfo;
-import com.ofs.java.blaze1457.day3.teacher.TeacherInfo;
+import com.ofs.java.vinitha.day3.entry.Person;
+import com.ofs.java.vinitha.day3.entry.Student;
+import com.ofs.java.vinitha.day3.entry.StudentMarkEntity;
+import com.ofs.java.vinitha.day3.entry.Teacher;
+import com.ofs.java.vinitha.day3.entry.TeacherSalaryEntity;
+import com.ofs.java.vinitha.day3.Student.StudentInfo;
+import com.ofs.java.vinitha.day3.teacher.TeacherInfo;
 
 /**
  * Main Class
- * @author blaze1457
+ * @author 
  *
  */
 public class Day3Main {
