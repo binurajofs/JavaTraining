@@ -1,11 +1,11 @@
-package com.ofs.java.blaze1457.day2;
-import com.ofs.java.blaze1457.day2.inheritance.*;
+package com.ofs.java.vinitha.day2;
+import com.ofs.java.vinitha.day2.inheritance.*;
 
 /**
  * 
  * Day 2 task main class;
  * 
- * @author blaze1457
+ * @author vinitha
  *
  */
 public class Day2Demo {
