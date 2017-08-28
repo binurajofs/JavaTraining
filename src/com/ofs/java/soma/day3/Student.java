@@ -1,6 +1,6 @@
 package com.ofs.java.soma.day3;
 
-public class Student {
+public class Student extends Person{
          int rollnum;
          String standard;
          String section;

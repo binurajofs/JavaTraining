@@ -1,6 +1,6 @@
 package com.ofs.java.soma.day3;
 
-public class Teacher {
+public class Teacher extends Person {
        int employeeid;
        String qualification;
        String subject;

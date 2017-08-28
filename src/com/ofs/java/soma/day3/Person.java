@@ -2,7 +2,7 @@ package com.ofs.java.soma.day3;
 
 public class Person {
 	String name;
-	int phonenumber;
+	String phonenumber;
 	int age;
 	String nationality;
 	public String getName() {
@@ -11,10 +11,10 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getPhonenumber() {
+	public String getPhonenumber() {
 		return phonenumber;
 	}
-	public void setPhonenumber(int phonenumber) {
+	public void setPhonenumber(String phonenumber) {
 		this.phonenumber = phonenumber;
 	}
 	public int getAge() {
@@ -34,4 +34,4 @@ public class Person {
          
 	}
 
-}
+
