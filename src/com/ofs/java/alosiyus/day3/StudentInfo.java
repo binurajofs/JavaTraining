@@ -14,7 +14,7 @@ public class StudentInfo extends StudentDemo implements StudentMarks {
 			
 		}
 		catch(Exception e) {
-			System.out.println(e.toString());
+			System.out.println("exception"+e);
 		}
 }
 }

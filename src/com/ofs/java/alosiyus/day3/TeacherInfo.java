@@ -12,7 +12,7 @@ public class TeacherInfo  extends TeacherDemo implements TeacherSalary {
 			System.out.println("CTC is "+salary.getCtc());
 		}
 		catch(Exception e) {
-			System.out.println(e.toString());
+			System.out.println("exception thrown"+e);
 		}
 }
 
