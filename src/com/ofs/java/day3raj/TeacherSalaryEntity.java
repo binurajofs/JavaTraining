@@ -1,6 +1,7 @@
 package com.ofs.java.day3raj;
 
 public class TeacherSalaryEntity {
+	
 	public long TotalSalary;
 	/**
 	 * @return the totalSalary

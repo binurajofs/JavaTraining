@@ -1,24 +1,9 @@
-<<<<<<< HEAD
 package com.ofs.java.day2raj;
 import com.ofs.java.day2raj.inheritance.MathDemo;
 import com.ofs.java.day2raj.inheritance.MathDemo1;
 import com.ofs.java.day2raj.inheritance.MathDemo2;
-=======
-package com.ofs.java.binu.day2raj;
-
-import com.ofs.java.binu.day2raj.inheritance.MathDemo;
-import com.ofs.java.binu.day2raj.inheritance.MathDemo1;
-import com.ofs.java.binu.day2raj.inheritance.MathDemo2;
-import com.ofs.java.binu.day2raj.inheritance.MethodDemo;
-import com.ofs.java.binu.day2raj.inheritance.MethodOverLoadDemo;
-
-/**
- * 
- * Day 2 task main class;
- * @author binurajk
- *
- */
->>>>>>> origin/rajkamal
+import com.ofs.java.day2raj.inheritance.MethodDemo;
+import com.ofs.java.day2raj.inheritance.MethodOverLoadDemo;
 public class Day2Demo {
 public static void main(String args[]) {
 		
@@ -55,9 +40,6 @@ public static void main(String args[]) {
 	
 	MathDemo mathDemo = new MathDemo();
 		// call methods and print the result;
-
-<<<<<<< HEAD
-=======
 	public static void main(String args[]) {
 		
 		MethodDemo methodDemo = new MethodDemo();
@@ -93,8 +75,6 @@ public static void main(String args[]) {
 	
 	MathDemo mathDemo = new MathDemo();
 		// call methods and print the result;
-
->>>>>>> origin/rajkamal
 		System.out.println(MathDemo.add(5));
 		MathDemo.addi();
 		MathDemo.addi();
@@ -107,11 +87,6 @@ public static void main(String args[]) {
 		MathDemo2 mathDemo2 = new MathDemo2();
          mathDemo2.div(10,5);
 	}
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/rajkamal
 }
 
 
