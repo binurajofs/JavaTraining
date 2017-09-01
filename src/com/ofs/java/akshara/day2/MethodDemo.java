@@ -5,7 +5,7 @@ public class MethodDemo {
 	public void addition(int value1,int value2) {
 		int sum;
 		sum=value1+value2;
-		System.out.print("Result is"+sum);
+		System.out.println("Result is"+sum);
 	}
 	
 	public int sum(int first,int second) {
