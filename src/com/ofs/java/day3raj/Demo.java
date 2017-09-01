@@ -26,7 +26,7 @@ public class Demo {
 			studentInfo.printStudentInfo(student);
 			System.out.println("Attendance Percentage is "+studentInfo.calculateAttendacePercent(10, 20));
 			
-			StudentMarks marks = new StudentMarks();
+			StudentMarkEntity marks = new StudentMarkEntity();
 			marks.setSubject1(60);
 			marks.setSubject2(85);
 			marks.setSubject3(90);
