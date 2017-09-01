@@ -1,0 +1,16 @@
+1. Write a Java simple thread program by using Thread class and Runnable interface.
+ 
+2. Write a Java multi thread program by using ThreadPoolExecutor.
+ 
+3. Write a Java multi thread program by synchronized keyword.
+ 
+4. Write a Java multi thread programs by using join()/notify()/notifyAll()/wait().
+ 
+5. Write a Java program to Swap and reverse elements in the list by using Comparator.
+ 
+6. Write a java program to make the collection read-only.
+ 
+7. Write a java program using Hashtable and remove some element by using Iterator.
+6. Write a java program to get the Field Objects using Reflection.
+ 
+7. Write a java program to access a private method of a class using Reflection.
