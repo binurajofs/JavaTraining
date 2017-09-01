@@ -10,6 +10,7 @@ public class Person {
 	int age;
 	long phoneNo;
 	String nationality;
+	
 	public String getName() {
 		return name;
 	}
