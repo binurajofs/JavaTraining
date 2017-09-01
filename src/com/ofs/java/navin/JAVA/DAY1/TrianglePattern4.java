@@ -1,6 +1,6 @@
 public class TrianglePattern4{
 	public static void main(String[] args){
-		int i=5;
+		int blank=5;
 		while(i>=0){
 			int j=4;
 			while(j>=i){
