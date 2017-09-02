@@ -8,12 +8,15 @@ public class MyClass3Demo {
 		    Result = i;
 		    System.out.println(Result);
 		}
+		 System.out.println(System.currentTimeMillis());
 	}
 	public void method2() {
 		for(int i=0; i < 5; i++){
 		    double Result = i;
 		    System.out.println(Result);
 		}
+		 System.out.println(System.currentTimeMillis());
+
 	}
 	
 	}
