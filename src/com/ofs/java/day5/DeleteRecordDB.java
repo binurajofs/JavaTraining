@@ -28,8 +28,8 @@ System.out.println("Connected database successfully...");
 //EXECUTE QUERY
 System.out.println("Deleting Record in Table.....");
 stmt=conn.createStatement();
-String sql = "DELETE FROM Registration " +
-        "WHERE id = 2";
+String sql = "DELETE FROM RAJKAMAL " +
+        "WHERE id = 5";
 stmt.executeUpdate(sql);
 
 System.out.println("Deleted Data from Table in Given Database");

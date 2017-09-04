@@ -28,7 +28,20 @@ public class ReadRecordDB {
 	    stmt = conn.createStatement();
 	    
 	    String sql = "SELECT * FROM RAJKAMAL";
-	    stmt.executeUpdate(sql);
+	    ResultSet rs = stmt.executeQuery(sql);
+	  //STEP 5: Extract data from result set
+	      while(rs.next()){
+	         //Retrieve by column name
+	         int id  = rs.getInt("id");
+	         String name = rs.getString("name");
+	         int age = rs.getInt("age");
+	         
+	         //Display values
+	         System.out.print("ID: " + id);
+	         System.out.print(", NAME: " + name);
+	  	     System.out.println(", AGE: " + age);
+	      }
+	      rs.close();
 	    System.out.println("Read Operation is Done from the records From the table...");
 
 	 }catch(SQLException se){

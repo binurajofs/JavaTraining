@@ -27,17 +27,13 @@ public class InsertRecordDB {
     System.out.println("Inserting records into the table...");
     stmt = conn.createStatement();
     
-    String sql = "INSERT INTO RAJKAMAL" +
-                 "VALUES (1,'Rajkamal MM',21)";
+    String sql = "INSERT INTO RAJKAMAL" + " VALUES (1,'Rajkamal',21)";
     stmt.executeUpdate(sql);
-    sql = "INSERT INTO Registration " +
-                 "VALUES (2,'Saravana', 25)";
+    sql = "INSERT INTO RAJKAMAL " +  "VALUES (2,'Saravana', 25)";
     stmt.executeUpdate(sql);
-    sql = "INSERT INTO Registration " +
-                 "VALUES (3,'Vicky',22)";
+    sql = "INSERT INTO RAJKAMAL " +  "VALUES (3,'Vicky',22)";
     stmt.executeUpdate(sql);
-    sql = "INSERT INTO Registration " +
-                 "VALUES(4,'Rama',18)";
+    sql = "INSERT INTO RAJKAMAL " +  "VALUES(4,'Rama',18)";
     stmt.executeUpdate(sql);
     System.out.println("Inserted records into the table...");
 

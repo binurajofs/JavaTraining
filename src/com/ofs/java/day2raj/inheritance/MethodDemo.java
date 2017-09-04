@@ -1,4 +1,4 @@
-package com.ofs.java.binu.day2raj.inheritance;
+package com.ofs.java.day2raj.inheritance;
 
 public class MethodDemo {
 		// Create a method to add two number, and print here.

@@ -39,41 +39,7 @@ public static void main(String args[]) {
 	}
 	
 	MathDemo mathDemo = new MathDemo();
-		// call methods and print the result;
-	public static void main(String args[]) {
-		
-		MethodDemo methodDemo = new MethodDemo();
-		// call method one;
-		methodDemo.addition(3,6);
-		// call method two and print the return value;
-		System.out.println(MethodDemo.addition(5,5,5));
-		
-		MethodOverLoadDemo methodOverLoadDemo = new MethodOverLoadDemo();
-		// call lhs and rhs and compare the value;
-	int res1=methodOverLoadDemo.calculateLHS(2,3,4);
-	int res2=methodOverLoadDemo.calculateRHS(2,3,4);
-	System.out.println("lhs="+res1);
-	System.out.println("rhs="+res2);
-	if(res1==res2)
-	{
-		System.out.println("rhs=lhs");
-	}
-	else {
-		System.out.println("rhs!=lhs");
-	}
-	int res3=methodOverLoadDemo.calculateLHS(2,3);
-	int res4=methodOverLoadDemo.calculateRHS(2,3);
-	System.out.println("lhs="+res3);
-	System.out.println("rhs="+res4);
-	if(res3==res4)
-	{
-		System.out.println("Thus rhs=lhs");
-	}
-	else {
-		System.out.println("rhs!=lhs");
-	}
-	
-	MathDemo mathDemo = new MathDemo();
+
 		// call methods and print the result;
 		System.out.println(MathDemo.add(5));
 		MathDemo.addi();

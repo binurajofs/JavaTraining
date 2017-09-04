@@ -27,8 +27,7 @@ System.out.println("Connected database successfully...");
 //EXECUTE QUERY
 System.out.println("creating Statement.....");
 stmt=conn.createStatement();
-String sql;
-sql="CREATE TABLE RAJKAMAL"+"(id INTEGER not NULL,"+"name CARCHAR(30),"+"age INTEGER," +"PRIMARY KEY(id))";
+String sql="CREATE TABLE RAJKAMAL"+"(id INTEGER not NULL,"+"name VARCHAR(30),"+"age INTEGER," +"PRIMARY KEY(id))";
 
 stmt.executeUpdate(sql);
 System.out.println("Created Table in Given Database");

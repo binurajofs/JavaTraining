@@ -28,8 +28,7 @@ public class UpdateRecordDB {
 	    System.out.println("Updating records into the table...");
 	    stmt = conn.createStatement();
 	    
-	    String sql = "UPDATE RAJKAMAL" +
-                "SET age = 23 WHERE id in (4)";
+	    String sql = "UPDATE RAJKAMAL SET age = 23 WHERE id in (4)";
    stmt.executeUpdate(sql);
 
 	    System.out.println("Updated records into the table...");

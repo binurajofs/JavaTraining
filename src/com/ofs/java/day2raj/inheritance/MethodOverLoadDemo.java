@@ -1,4 +1,4 @@
-package com.ofs.java.binu.day2raj.inheritance;
+package com.ofs.java.day2raj.inheritance;
 
 public class MethodOverLoadDemo {
 	int a=3,b=4,c=5;

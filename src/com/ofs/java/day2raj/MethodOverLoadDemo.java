@@ -1,5 +1,4 @@
-package com.ofs.java.binu.day2raj;
-
+package com.ofs.java.day2raj;
 public class MethodOverLoadDemo {
 	int a=3,b=4,c=5;
 	// create a method to do algebra operations;
@@ -24,8 +23,4 @@ public int  calculateRHS(int a, int b) {
 int rhs=(a+b)*((a*a)-(a*b)+(b*b));
 return rhs;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/rajkamal
 }
