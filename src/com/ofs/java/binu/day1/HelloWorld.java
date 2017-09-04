@@ -1,4 +1,4 @@
-package com.ofs.java.binu;
+package com.ofs.java.binu.day1;
 
 public class HelloWorld {
 	public static void main(String a[]) {

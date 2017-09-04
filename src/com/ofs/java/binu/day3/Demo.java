@@ -7,12 +7,10 @@ public class Demo {
 		StudentInfo m = new StudentInfo();
 		m.calculateMark();
 		System.out.println();
-		
+
 		TeacherInfo n = new TeacherInfo();
 		n.calculateSalary();
 		System.out.println();
-		
-	
 
 	}
 

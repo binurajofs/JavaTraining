@@ -8,9 +8,9 @@ public class StudentInfo extends StudentMarkEntity implements StudentsMarks {
 		System.out.println();
 		s.printBasicInfo();
 		System.out.println();
-	
+
 		try {
-			
+
 			StudentMarkEntity marks = new StudentMarkEntity();
 			marks.setSubject1(70);
 			marks.setSubject2(80);
