@@ -36,7 +36,7 @@ public class InsertRecordDB {
     sql = "INSERT INTO RAJKAMAL " +  "VALUES(4,'Rama',18)";
     stmt.executeUpdate(sql);
     System.out.println("Inserted records into the table...");
-
+stmt.close();
  }catch(SQLException se){
     //Handle errors for JDBC
     se.printStackTrace();
