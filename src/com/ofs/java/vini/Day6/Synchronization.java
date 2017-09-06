@@ -2,7 +2,7 @@ package com.ofs.java.vini.Day6;
 
 
 	class Table{  
-		 synchronized void printTable(int n){//synchronized method  
+		 synchronized void printTable(int n) {//synchronized method  
 			  
 			 for(int i=1;i<=5;i++){ 
 			   System.out.println(n*i);  
@@ -14,7 +14,7 @@ package com.ofs.java.vini.Day6;
 		 }  
 		}  
 		  
-		class MyThread1 extends Thread{  
+		class MyThread1 extends Thread {  
 		Table t;  
 		MyThread1(Table t){  
 		this.t=t;  

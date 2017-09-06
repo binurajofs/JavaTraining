@@ -3,7 +3,6 @@ package com.ofs.java.vini.Day6;
 import java.util.ArrayList;
 import java.util.Collections;
 
-
 public class Swap {
 	 public static void main(String[] args) {
 		    ArrayList<String> arrayList = new ArrayList<String>();

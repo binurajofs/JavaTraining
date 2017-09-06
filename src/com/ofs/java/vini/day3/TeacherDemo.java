@@ -16,7 +16,6 @@ public class TeacherDemo extends PersonDemo {
 	 */
 	@Override
 	public float calculateAttendacePercent(int presentDays, int totalDays) {
-		// TODO Auto-generated method stub
 		float percent = ((presentDays*100)/totalDays);
 		return percent;
 	}

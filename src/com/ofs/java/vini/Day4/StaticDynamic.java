@@ -1,9 +1,6 @@
 package com.ofs.java.vini.Day4;
 
-public class MyClass{
-	
-}
- 
+
 public class StaticDynamic {
    public static void main(String[] args) {
  
@@ -18,5 +15,8 @@ public class StaticDynamic {
    }
 }
  
-
+public class MyClass{
+	
+}
+ 
 
