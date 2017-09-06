@@ -6,9 +6,11 @@ public class FieldObjectReflex {
 
 	
 	int a=5;
-	public static void main(String[] args) throws NoSuchFieldException, SecurityException {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-          Class aClass=MyObject.class;
+          Class<MyObject> aClass=MyObject.class;
+		//String classname="MyObject";
+          //Class class = Class.forName(classname);
 	Field field =aClass.getField("someField");
 	if(field!=null) {
 		System.out.println("success");

@@ -26,7 +26,7 @@ class PrintDemo {
 	   public void printCount() {
 	      try {
 	         for(int i = 5; i > 0; i--) {
-	            System.out.println("Counter   ---   "  + i );
+	            System.out.println("Count   ---   "  + i );
 	         }
 	      }catch (Exception e) {
 	         System.out.println("Thread  interrupted.");
@@ -47,11 +47,11 @@ class ThreadDemo extends Thread {
 	      synchronized(PD) {
 	         PD.printCount();
 	      }
-	      System.out.println("Thread " +  threadName + " exiting.");
+	      System.out.println("Thread " +  threadName + " ends.");
 	   }
 
 	   public void start () {
-	      System.out.println("Starting " +  threadName );
+	      System.out.println("lets start " +  threadName );
 	      if (t == null) {
 	         t = new Thread (this, threadName);
 	         t.start ();

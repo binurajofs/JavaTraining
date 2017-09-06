@@ -33,7 +33,9 @@ try {
 public void createtable() {
 	try{
 		statement=connection.createStatement();
-	   resultset=statement.executeQuery("CREATE TABLE  Alosiyus(subject varchar(25),matks int(3)) ");
+		String sql="CREATE TABLE  AlosiyusJ(subject varchar(25),marks int(3)) ";
+	   statement.executeUpdate(sql);
+	   System.out.println("table created");
 	}
 	catch(Exception e) {
 		System.out.println(e.toString());
@@ -42,8 +44,8 @@ public void createtable() {
 public void insertData(String subject, int marks) {
 	try {
 		statement = connection.createStatement();
-		int result = statement
-				.executeUpdate("INSERT INTO Alosiyus(Subjects,Marks) VALUES('" + subject + "'," + marks + ")");
+		 statement
+				.executeUpdate("INSERT INTO AlosiyusJ(subject,marks) VALUES('" + subject + "'," + marks + ")");
 	} catch (Exception e) {
 		System.out.println(e.toString());
 	}
@@ -51,8 +53,8 @@ public void insertData(String subject, int marks) {
 public void updateMark(String subject, int marks) {
 	try {
 		statement = connection.createStatement();
-		int result = statement
-				.executeUpdate("UPDATE Alosiyus SET marks=" + marks + " WHERE Subjects='" + subject + "'");
+		 statement
+				.executeUpdate("UPDATE AlosiyusJ SET marks=" + marks + " WHERE subject='" + subject + "'");
 	} catch (Exception e) {
 		System.out.println(e.toString());
 	}
@@ -60,7 +62,7 @@ public void updateMark(String subject, int marks) {
 public void deleteMark(String subject) {
 	try {
 		statement = connection.createStatement();
-		int result = statement.executeUpdate("DELETE FROM Alosiyus WHERE Subjects='" + subject + "'");
+		statement.executeUpdate("DELETE FROM AlosiyusJ WHERE subject='" + subject + "'");
 	} catch (Exception e) {
 		System.out.println(e.toString());
 	}
@@ -69,12 +71,12 @@ public void display() {
 	try{
 	   
 	   statement = connection.createStatement();
-		resultset = statement.executeQuery("SELECT * FROM Alosiyus");
+		resultset = statement.executeQuery("SELECT * FROM AlosiyusJ");
 		ResultSetMetaData res = resultset.getMetaData();
 	   int columnNumber=res.getColumnCount();
 	   while(resultset.next()) {
 		   for(int i=1;i<columnNumber;i++) {
-			   System.out.println(resultset.getString(i)+"");
+			   System.out.println(resultset.getString(i)+" "+resultset.getInt(i+1));
 		   }
 	   }
 	}
@@ -84,7 +86,7 @@ public void display() {
 }
 public void batchInsert() {
 	try {
-		String sql = "INSERT INTO Alosiyus (Subjects,Marks) VALUES(?,?)";
+		String sql = "INSERT INTO AlosiyusJ (subject,marks) VALUES(?,?)";
 		PreparedStatement preparedStatement = connection.prepareStatement(sql);
 		for(int i=1;i<5;i++) {
 			preparedStatement.setString(1, "Batch"+i);
@@ -99,6 +101,7 @@ public void batchInsert() {
 public static void main(String[] args) {
 	// TODO Auto-generated method stub
 DbConnect dbconnect=new DbConnect();
+dbconnect.createtable();
 String subject="";
 int marks;
 Scanner in = new Scanner(System.in);

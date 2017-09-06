@@ -17,7 +17,8 @@ public class RefPrivateMethodAccess {
 
 
 class TestSample{
-    private void sample(){
-        System.out.println("hello im sample method");
+    
+	private void sample(){
+        System.out.println("hello im sample private method");
     }
 }
