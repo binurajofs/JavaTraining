@@ -30,17 +30,11 @@ public class Student extends Person {
 		this.rank = rank;
 	}
 
-	public String getsection() {
+	public String getSection() {
 		return section;
 	}
 
-	public void setsection(String string) {
-		this.section = string;
-	}
-
-	public void setsection1(String string) {
-		this.section = string;
-
-		
+	public void setSection(String section) {
+		this.section = section;
 	}
 }

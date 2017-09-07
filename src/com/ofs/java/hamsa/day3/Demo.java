@@ -17,7 +17,7 @@ public class Demo {
 		student.setRollNum(1553);
 		student.setclassName("2");
         student.setRank(5);
-		student.setsection1("cse");
+		student.setSection("cse");
 
 		Teacher teacher = new Teacher();
 		teacher.setName("asdfg");

@@ -7,7 +7,7 @@ public class StudentDemo extends PersonDemo {
 		System.out.println("Student RollNum :" + student.getRollNum());
 		System.out.println("Student ClassName:" + student.getclassName());
 		System.out.println("Student Rank :" + student.getRank());
-		System.out.println("Student Section :" + student.getsection());
+		System.out.println("Student Section :" + student.getSection());
 	}
 
 	public float calculateAttendancePercent(int presentDays, int totalDays) {
