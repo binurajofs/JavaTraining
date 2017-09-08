@@ -7,7 +7,7 @@ public class StaticDynamic {
       ClassLoader cl =StaticDynamic .class.getClassLoader();
  
       try {
-         Class c = cl.loadClass("MyClass");
+         Class<?> c = cl.loadClass("MyClass");
          System.out.println("c.getName() = " + c.getName());
       } catch (Exception e) {
          System.out.println("Exception: " + e.toString());
@@ -15,7 +15,7 @@ public class StaticDynamic {
    }
 }
  
-public class MyClass{
+ class MyClass {
 	
 }
  
