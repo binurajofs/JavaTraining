@@ -15,7 +15,7 @@ public class collectionlist {
 		list.add("New");
 	    list.add("Day");
 	    System.out.println(list);
-	    list = (ArrayList) Collections.unmodifiableList(list);
+	    list = (ArrayList<String>) Collections.unmodifiableList(list);
 	    try {
 	    	list.add("Dream");
 	    	list.add("Night");
