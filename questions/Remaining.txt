@@ -1,0 +1,21 @@
+Static and Dynamic loading Class in java
+Write a Java multi thread programs by using join()/notify()/notifyAll()/wait().
+Write a Java program to Swap and reverse elements in the list by using Comparator.
+Write a java program to make the collection read-only.
+Write a java program using Hashtable and remove some element by using Iterator.
+
+Deploy the application and run the new servlet.
+Write a Java program to get the value of a specified key in a map
+Write a sample for Array List #conversion #sort #reverse #test array #max & min
+
+jsp
+
+Write a sample for ORM mapping.
+
+Write a sample for Dependency Injection
+
+Write a sample for AOP 
+
+jquery
+
+Ui panel backend

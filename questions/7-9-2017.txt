@@ -1,0 +1,12 @@
+1. Deploy the application and run the new servlet.
+       Fetch data from database and give response as a table format.
+
+2. Write a Java program to get the value of a specified key in a map
+
+3. Write a sample for Array List do the below things
+
+      a)Write a Java program to convert a hash set to a List/ArrayList.
+      b)Write a Java program to sort a given array list.
+      c)Write a Java program to reverse elements in a array list.
+      d)Write a Java program to test an array list is empty or not.
+      e)Write a Java program to find the maximum and minimum value of an array.

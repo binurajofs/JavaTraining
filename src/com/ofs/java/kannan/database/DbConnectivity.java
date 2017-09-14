@@ -89,9 +89,9 @@ public class DbConnectivity {
 		try {
 			String sql = "INSERT INTO Kannan (Subjects,Marks) VALUES(?,?)";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
-			for(int i=1;i<5;i++) {
-				preparedStatement.setString(1, "Batch"+i);
-				preparedStatement.setInt(2, 10+i);
+			for (int i = 1; i < 5; i++) {
+				preparedStatement.setString(1, "Batch" + i);
+				preparedStatement.setInt(2, 10 + i);
 				preparedStatement.addBatch();
 			}
 			preparedStatement.executeBatch();
